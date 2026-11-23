@@ -69,6 +69,8 @@
     "jest": "jest"
   },
   "files": [
+    "Package.swift",
+    "react-native-spm-prefix.h",
     "android/src/main/AndroidManifest.xml",
     "android/src/main/java/",
     "android/build.gradle",
@@ -150,5 +152,9 @@
   "packageManager": "yarn@4.12.0",
   "engines": {
     "node": ">=18"
+  },
+  "swiftpmConfig": {
+    "name": "ReactNativeFbsdkNext"
   }
+
 }
